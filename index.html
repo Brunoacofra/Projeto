@@ -20,33 +20,44 @@
 					</div>
 				</div>
 				<div>
-					<form>
+					<form onsubmit="return false;">
 						<div class="row">
 							<h2>Formulario de contato</h2>
 							<div class="col-1">
 								<label for="nome">Nome:*</label>
 							</div>
 							<div class="col-10">
-								<input class="form-control" type="text" name="nome" placeholder="Digite seu nome...">
+								<input class="form-control" id="nome" type="text" name="nome" placeholder="Digite seu nome...">
 							</div>
+							<div class="texto">
+								<p>Campo obrigatorio</p>
+							</div> 
 						</div>
 						<div class="row">
 							<div class="col-1">
 								<label for="email">Email:*</label>
 							</div>
 							<div class="col-10">
-								<input type="email" name="email" class="form-control" placeholder="Digite seu email ...">
+								<input type="email" name="email" id="email" class="form-control" placeholder="Digite seu email ...">
 							</div>
+							<div class="texto">
+								<p>Campo obrigatorio</p>
+							</div> 
 						</div>
 						<div class="row">
 							<div class="col-1">
 								<label for="mensagem">Mensagem:*</label>
 							</div>
 							<div class="col-10">
-								<textarea class="form-control" name="mensagem"></textarea>
+								<textarea class="form-control" id="mensagem" name="mensagem"></textarea>
 							</div>
-						<div>
-							<button type="submit" class="btn btn-primary">Enviar</button>
+							<div class="texto">
+								<p>Campo obrigatorio</p>
+							</div> 
+						<div class="row">
+							<div class="col-3" id="spaceBtn">
+								<button type="submit" id="btn" class="btn btn-primary">Enviar</button>
+							</div>
 						</div>
 					</form>			
 				</div>
@@ -54,7 +65,7 @@
 			</div>
 		</section>
 
-
+		<script type="text/javascript" src="Functions.js"></script>
 		<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
 	</body>

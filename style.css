@@ -10,3 +10,15 @@
 {
 	margin-bottom:5px ;
 }
+.row #spaceBtn
+{
+	margin-top: 5px;
+	margin-left: 8.5%;
+}
+.texto
+{
+	color:red;
+	font-family: arial;
+	margin-left:8.5% ;
+	display: none;
+}
