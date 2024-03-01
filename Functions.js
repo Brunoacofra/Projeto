@@ -35,7 +35,6 @@ function mensagemverifica(){
 		msg[2].setAttribute("style","display:none")
 	}
 }
-
 btn.onclick = function (){
 	nameverifica();
 	emailverifica();
