@@ -22,3 +22,32 @@
 	margin-left:8.5% ;
 	display: none;
 }
+#Menu ul {
+    max-width: 800px;
+    list-style: none;
+    padding: 0;
+}
+#Menu ul li {
+    display: inline;
+}
+#Menu ul li a {
+    color: gray;
+    padding-right: 10px;
+    display: inline-block;
+    text-decoration: none;
+    transition: background .4s;
+}
+#Menu
+{
+	padding-top: 10px;
+	margin-left: 16%;
+}
+p{
+	margin-left: 8.5%;
+}
+#campos{
+	display: none;
+}
+#campinhho{
+	display: none;
+}
